@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MC:jar">
+    <output-path>$PROJECT_DIR$/java/lib/plugins</output-path>
+    <root id="archive" name="MC.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/java/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="qkRPGA" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/java/lib/mysql-connector-java-8.0.25.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/java/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

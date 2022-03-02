@@ -1,0 +1,13 @@
+idNum:2
+name:弓手
+defaultHP:20
+upHP:0.1
+attack:1
+upAttack:0.1
+equip:true
+equipment:弓
+melee:false
+range:true
+upMelee:0
+upRange:5
+

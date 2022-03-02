@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "f680df9b-ac5c-4d3f-9bac-75bc0e316afa",
+    "name": "Admin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "15ecb6c7-4e43-34c6-b7bb-10c578ac26dc",
+    "name": "cola_pink",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
