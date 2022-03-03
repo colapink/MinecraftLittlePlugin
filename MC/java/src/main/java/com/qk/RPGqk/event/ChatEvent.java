@@ -9,5 +9,16 @@ public class ChatEvent implements Listener {
     @EventHandler
     public void ChatEvent(AsyncPlayerChatEvent event){
 
+        if (event.getMessage().contains("你妈")){
+            Player player = event.getPlayer();
+            player.sendMessage(ChatColor.YELLOW +"请文明用语");
+            event.setMessage("***");
+        }
+        if(event.getMessage().contains("nmsl")){
+            Player player = event.getPlayer();
+            player.sendMessage(ChatColor.YELLOW +"请文明用语");
+            event.setMessage("***");
+        }
     }
+
 }
