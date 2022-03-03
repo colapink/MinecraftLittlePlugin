@@ -6,3 +6,5 @@ author: qk 可乐加品客
 commands:
   job:
     description: 打开RPG职业选单
+  tpa:
+    description: 传送
