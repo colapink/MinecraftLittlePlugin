@@ -20,7 +20,8 @@ public class main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerAttack(),this);//玩家攻击更改伤害
 
         getCommand("job").setExecutor(new RPG_job());//职业选择指令
-
+        getCommand("tpa").setExecutor(new tpCommand());//传送指令
+        
         System.out.println("[RPG]插件已加载成功");
         System.out.println("[RPG]作者：可乐加品客 QK");
 
