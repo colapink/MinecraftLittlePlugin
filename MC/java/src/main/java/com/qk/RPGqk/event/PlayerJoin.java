@@ -18,7 +18,10 @@ public class PlayerJoin implements Listener{
         String player = event.getPlayer().getName();
         Player p =event.getPlayer();
         event.setJoinMessage(ChatColor.YELLOW + player +"加入服务器");
-
+        //声音效果
+        p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_BELL,30f,30f);
+        p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_BELL,30f,15f);
+        //欢迎加入服务器
         if(!playerNameList.contains(event.getPlayer().getName())) {
             p.sendMessage(ChatColor.YELLOW +"欢迎加入本服务器，请输入/job选择自己的职业");
             playerNameList.add(event.getPlayer().getName());
